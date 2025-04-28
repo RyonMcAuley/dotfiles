@@ -1,0 +1,36 @@
+[window]
+
+opacity = 0.85
+
+padding.x = 10
+padding.y = 10
+
+decorations = "Full"
+decorations_theme_variant = "Dark"
+
+[colors.primary]
+#background = "#1E1E2E"
+background = "#1f1f35"
+bright_foreground = "#CDD6F4"
+dim_foreground = "#CDD6F4"
+foreground = "#CDD6F4"
+
+[font]
+# normal.family = "FiraCode Nerd Font"
+#normal.family = "JetBrainsMono Nerd Font"
+normal.family = "CaskaydiaCove Nerd Font Mono"
+size = 18.0
+
+[font.bold]
+family = "FiraCode Nerd Font Propo"
+#family = "CaskaydiaCove Nerd Font Mono"
+style = "Bold"
+
+[font.italic]
+family = "FiraCode Nerd Font SemBd"
+#family = "CaskaydiaCove Nerd Font Mono"
+style = "Italic"
+
+[font.offset]
+x = 0
+y = 0
