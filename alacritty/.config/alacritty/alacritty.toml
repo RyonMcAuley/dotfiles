@@ -8,12 +8,12 @@ padding.y = 10
 decorations = "Full"
 decorations_theme_variant = "Dark"
 
-[colors.primary]
-#background = "#1E1E2E"
-background = "#1f1f35"
-bright_foreground = "#CDD6F4"
-dim_foreground = "#CDD6F4"
-foreground = "#CDD6F4"
+# [colors.primary]
+# #background = "#1E1E2E"
+# background = "#1f1f35"
+# bright_foreground = "#CDD6F4"
+# dim_foreground = "#CDD6F4"
+# foreground = "#CDD6F4"
 
 [font]
 # normal.family = "FiraCode Nerd Font"
@@ -34,3 +34,17 @@ style = "Italic"
 [font.offset]
 x = 0
 y = 0
+
+[general]
+import = [
+    # dark
+    # "~/.config/alacritty/themes/themes/aura.toml",
+    # blueish
+    # "~/.config/alacritty/themes/themes/ayu_mirage.toml",
+    # also darky
+    # "~/.config/alacritty/themes/themes/citylights.toml",
+    # dark. solid
+    # "~/.config/alacritty/themes/themes/deep_space.toml",
+    # gh tritan
+    "~/.config/alacritty/themes/themes/github_dark_tritanopia.toml",
+]
