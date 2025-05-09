@@ -42,11 +42,4 @@
 # # Just for example:
 # resize-overlay-duration = 4s 200ms
 
-background = #0d1017
-background-opacity = 0.8
-
-font-size = 18
-#
-# import = [
-#     "~/.config/ghostty/github-dark-tritan.toml",
-# ]
+config-file = /home/ryon/.config/ghostty/mine
