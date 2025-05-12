@@ -1,7 +1,18 @@
-background = #0d1017
+# ghostty +list-keybinds --default
+
+# background = #0d1017
 background-opacity = 0.85
 
+font-family = "Cascadia Code"
+# font-family = "JetBrains Mono"
+# font-family = "Fira Code"
 font-size = 18
+# keybind = performable:shift_enter=csi:\x1b[C
+
+# theme = dark:~/.config/ghostty/github-dark-tritan.toml
+# breaks stuff
+# keybind = performable:ctrl+shift+l=clear_screen
+# keybind = ctrl+l=toggle_secure_input
 #
 # import = [
 #     "~/.config/ghostty/github-dark-tritan.toml",
