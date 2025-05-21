@@ -36,14 +36,13 @@ config.max_fps = 90
 
 -- remaps
 -- couldn't get c-f to work
--- config.keys = {
---     {
---         key = "f",
---         mods = "CTRL",
--- action = wezterm.action.SpawnCommandInNewTab {
---     args = { "~/.local/bin/tmux-sessionizer.sh" },
--- },
--- }
+config.keys = {
+    {
+        key = "f",
+        mods = "CTRL",
+        action = wezterm.action.SendString('~/.local/bin/tmux-sessionizer.sh\n'),
+    },
+}
 -- { key = "f", mods = "CTRL|SHIFT", action = wezterm.action.ToggleFullScreen },
 -- { key = "t", mods = "CTRL|SHIFT", action = wezterm.action.SpawnTab("CurrentPaneDomain") },
 -- { key = "w", mods = "CTRL|SHIFT", action = wezterm.action.CloseCurrentTab({ confirm = true }) },
