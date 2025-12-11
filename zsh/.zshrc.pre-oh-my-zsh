@@ -1,0 +1,33 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+# Start ssh client & add github key
+if [ -z "$SSH_AGENT_PID" ]; then
+  eval $(ssh-agent -s) > /dev/null
+fi
+ssh-add -l > /dev/null 2>&1|| ssh-add ~/.ssh/mygithub > /dev/null 2>&1
+
+#remaps / alias
+alias cl='clear'
+alias nv='nvim'
+alias i='sudo pacman -S'
+# alias ls='ls --color=auto'
+alias ls='exa --icons'
+alias lsl='ls -l'
+alias lzg='lazygit'
+alias grep='grep --color=auto'
+PS1='[\u@\h \W]\$ '
+
+export XDG_CONFIG_HOME="$HOME/.config"
+export PATH="$HOME/go/bin:$PATH"
+
+# start starship
+eval "$(starship init bash)"
+
+# better completion
+set show-all-if-ambiguous on
+bind 'TAB:menu-complete'
